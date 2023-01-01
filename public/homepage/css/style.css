@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: #39b54a;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/h1_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#privacy-policy {
+    background-color: #d1ebff;
+}
+
+.home-wrapper {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+}
+
+.privacy-policy-list li {
+    list-style-type: decimal !important;
+    margin-bottom: 1rem;
+}
